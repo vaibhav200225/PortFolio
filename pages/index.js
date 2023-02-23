@@ -46,7 +46,7 @@ export default function Home() {
               courses related to this field. 
             </p>
           </div>
-          <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 " >
+          <div className=" text-xl flex justify-center gap-16 py-3 text-gray-600 " >
             <a href="#"><Image src={Twitter} alt="Twitter" /></a>
             <a href="#"><Image src={Linkedin} alt="Linkedin"/></a>
             <a href="#"><Image src={Facebook} alt="Facebook" /></a>
@@ -59,52 +59,59 @@ export default function Home() {
         <hr className=" w-80 h-1 mx-auto border-2 rounded md:my-10 dark:bg-lime-500" />
         <section className=" text-center mt-10">
           <div>
-            <h2 className=" text-3xl py-1 dark:text-white">Services I Offer</h2>
+            <h2 className=" text-3xl py-1 dark:text-white">Services We Offer</h2>
             <p className=" text-lg py-5 leading-8 text-gray-800 md:text-xl mal-w-xl mx-auto lg:mr-60 lg:ml-60 dark:text-white">
-              Since in the begining of my journey I have done with the internship and bougbounty as well <br/>
-              I offer from a wide range of services including programming and teachine
+              We also provide various types of services to fullfield the customers needs. We want our customer should be satisfied with our hard word.
+              These services we provide are mention below.
             </p>
           </div>
-          <div className=" lg:flex gap-10 mt-10">
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white lg:ml-28 md:flex-row">
+          <div className=" grid grid-cols-3 gap-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white md:flex-row">
               <Image src={ design } width={100} height={100} alt="design" />
-              <h3 className=" text-lg font-medium pt-8 pb-2">Beautiful Design</h3>
-              <p className="py-2">Create elegent design suited for you need design theory</p>
-              <h4 className="py-4 text-teal-600">Tools I use</h4>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
+              <h2 className=" text-3xl font-bold pt-8 pb-2">Website Application <br />Development</h2>
+              <p className="py-2">
+                Everyone in there own Industry want to do some <br />
+                creative so to get the attention of public and make the profit<br /> 
+                of our business. For website development <br />we will fulfield you needs.
+              </p>
+              <h4 className="py-4 text-teal-600">What can we do</h4>
+              <p className=" text-gray-800 py-1">Front-End Designing</p>
+              <p className=" text-gray-800 py-1">Back-End Management</p>
+              <p className=" text-gray-800 py-1">Wordpress</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={ code } width={100} height={100} alt="code" />
-              <h3 className=" text-lg font-medium pt-8 pb-2">Beautiful Design</h3>
-              <p className="py-2">Create elegent design suited for you need design theory</p>
-              <h4 className="py-4 text-teal-600">Tools I use</h4>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
+              <h2 className=" text-3xl font-bold pt-8 pb-2">Vulnerability Analysis & <br /> Penetration Testing</h2>
+              <p className="py-2">
+                Security is the main concern in the business industries. <br />
+                If there is lack of security there may be chanches of loss<br /> of financial and reputaion.
+              </p>
+              <h4 className="py-4 text-teal-600">What can we do</h4>
+              <p className=" text-gray-800 py-1">WEB/Mobile/API Penetration Testing.</p>
+              <p className=" text-gray-800 py-1">Network Penetration Testing.</p>
+              <p className=" text-gray-800 py-1">Source Code Reviewing.</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={ Consulting } width={100} height={100} alt="consultins" />
-              <h3 className=" text-lg font-medium pt-8 pb-2">Beautiful Design</h3>
-              <p className="py-2">Create elegent design suited for you need design theory</p>
-              <h4 className="py-4 text-teal-600">Tools I use</h4>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
+              <h2 className=" text-3xl font-bold pt-8 pb-2">Spreading Security <br /> Awareness</h2>
+              <p className="py-2 ">
+                In our day to day life the most of people don't know about <br />security.Some people are getting tricked by Social <br />Engineering Attacks.
+              </p>
+              <h4 className="py-4 text-teal-600">What can we do</h4>
+              <p className=" text-gray-800 py-1">Taking a live Seminar</p>
+              <p className=" text-gray-800 py-1">Teaching about Cyber Security</p>
+              <p className=" text-gray-800 py-1">How to prevent those activities.</p>
             </div>
           </div>
+          <hr className=" w-80 h-1 mx-auto border-2 rounded md:my-10 drop-shadow-xl" />
         </section>
         <section className=" text-center">
           <div>
-            <h3 className=" text-3xl py-1">
+            <h2 className=" text-3xl py-1 dark:text-white">
               Projects
-            </h3>
-            <p className=" text-md py-2 leading-8 text-gray-800">
+            </h2>
+            <p className=" text-md py-2 leading-8 text-gray-800 dark:text-white">
               Since in the begining of my journey I have done with the internship and bougbounty as well
-            </p>
-            <p>
-              I offer from a wide range of services including programming and teachine
             </p>
           </div>
           <div>

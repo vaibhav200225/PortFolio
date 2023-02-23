@@ -2,7 +2,10 @@
   "name": "rectify",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://vaibhav200225.github.io/Mine-Portfolio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next serve",
     "build": "next",
     "start": "next start",
@@ -10,6 +13,7 @@
   },
   "dependencies": {
     "firebase": "^9.10.0",
+    "gh-pages": "^5.0.0",
     "git": "^0.1.5",
     "isomorphic-unfetch": "^4.0.2",
     "moment": "^2.29.4",
