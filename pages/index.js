@@ -1,9 +1,5 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import Twitter from "../images/icons/twitter.svg";
-import Facebook from "../images/icons/facebook.svg";
-import Instagram from "../images/icons/instagram.svg";
-import Linkedin from "../images/icons/linkedin.svg";
 import Image from "next/image";
 import deved from "../images/pics/hacker.png";
 import { useState } from "react";
@@ -11,7 +7,7 @@ import next from "next";
 import Projects from "./components/Projects.js";
 import Halloffame from "./components/halloffame.js";
 import Services from "./components/Services.js";
-import ScrollToTop from "./components/scrolltotop.js"
+import Contactme from "./components/contactme.js"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -38,7 +34,7 @@ export default function Home() {
                   />
                 </li>
                 <li className=" text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-md shadow-lg shadow-cyan-400">
-                  <a href="#">Resume</a>
+                  <a href="#">Blog</a>
                 </li>
               </ul>
             </nav>
@@ -62,33 +58,21 @@ export default function Home() {
               all folks related to these domain.
             </p>
           </div>
-          <div className=" text-xl flex justify-center gap-16 py-3 text-gray-600 ">
-            <a href="https://twitter.com/vzsecured">
-              <Image src={Twitter} alt="Twitter" />
-            </a>
-            <a href="https://www.linkedin.com/in/vaibhav-zadane-476461215/">
-              <Image src={Linkedin} alt="Linkedin" />
-            </a>
-            <a href="#">
-              <Image src={Facebook} alt="Facebook" />
-            </a>
-            <a href="#">
-              <Image src={Instagram} alt="Instagram" />
-            </a>
-          </div>
-          <div className=" shadow-lg shadow-cyan-400 relative bg-gradient-to-b overflow-hidden from-white rounded-full w-80 h-80 mt-20 mx-auto md:h-96 md:w-96 dark:from-lime-500 dark:to-teal-500">
+          
+          <div className=" shadow-lg shadow-cyan-400 relative bg-gradient-to-b overflow-hidden from-white rounded-full w-80 h-80 mx-auto md:h-96 md:w-96 dark:from-lime-500 dark:to-teal-500">
             <Image src={deved} layout="fill" objectFit="cover" alt="deved" />
           </div>
         </section>
-        <ScrollToTop />
         
         <Services />
 
         <Projects />
-        
-        <hr className=" w-80 h-1 mx-auto border-2 rounded md:my-10 drop-shadow-xl" />
 
         <Halloffame />
+
+        <hr className=" w-80 h-1 mx-auto border-2 rounded md:my-10 drop-shadow-xl " />
+
+        <Contactme />
         
       </main>
     </div>

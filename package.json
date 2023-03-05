@@ -12,6 +12,7 @@
     "prod": "next export"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "firebase": "^9.10.0",
     "flowbite": "^1.6.3",
     "gh-pages": "^5.0.0",

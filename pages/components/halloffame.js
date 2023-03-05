@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import PlanetArt from "../../images/pics/planet.png";
+import WebsiteBuild from "../../images/pics/webbuilder.png";
 
 export default function halloffame() {
     return(
@@ -12,6 +15,44 @@ export default function halloffame() {
               Below are the origanization in which I am listed in their Hall Of Fame
             </p>
           </div>
+
+          <div className=" pt-10 flex space-x-20 ">
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <p className=" hidden"></p>
+            </div>
+            <div>
+              <Image src={PlanetArt} width={100} height={100} alt="Planet" className=" rounded-full "/>
+            </div>
+            <div>
+              <Image src={WebsiteBuild} width={100} height={100} alt="WebsiteBuilder" className=" rounded-full"/>
+            </div>
+            <div></div>
+          </div>
+          <div className=" pb-12"></div>
         </section>
     )
 }

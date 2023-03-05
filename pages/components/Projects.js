@@ -7,8 +7,8 @@ import Image from "next/image";
 export default function Projects() {
   return (
 
-    <section className=" lg:grid lg:grid-cols-4 gap-10 flex-row lg:pl-24 lg:pr-24">
-      <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+    <section className=" lg:grid lg:grid-cols-4 gap-10 flex-row lg:pl-24 lg:pr-24 group ">
+      <div className=" group-hover:blur-md hover:!blur-none cursor-pointer text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
         <Image src={Malwaredev} width={100} height={100} alt="consultins" />
         <h2 className=" text-3xl font-bold pt-8 pb-2">Malware Development</h2>
         <p className="py-2 ">
@@ -18,7 +18,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+      <div className=" group-hover:blur-md hover:!blur-none cursor-pointer text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
         <Image src={Malwaredev} width={100} height={100} alt="consultins" />
         <h2 className=" text-3xl font-bold pt-8 pb-2">Malware Development</h2>
         <p className="py-2 ">
@@ -28,7 +28,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+      <div className=" group-hover:blur-md hover:!blur-none cursor-pointer text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
         <Image src={Malwaredev} width={100} height={100} alt="consultins" />
         <h2 className=" text-3xl font-bold pt-8 pb-2">Malware Development</h2>
         <p className="py-2 ">
@@ -38,7 +38,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+      <div className=" group-hover:blur-md hover:!blur-none cursor-pointer text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
         <Image src={Malwaredev} width={100} height={100} alt="consultins" />
         <h2 className=" text-3xl font-bold pt-8 pb-2">Malware Development</h2>
         <p className="py-2 ">
