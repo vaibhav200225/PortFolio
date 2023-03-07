@@ -64,17 +64,17 @@ export default function contactme(){
                             </div>
 
                             <div className=' flex space-x-10 mt-4'>
-                                <div>
+                                <div className="transform hover:scale-110 transition duration-500">
                                     <a href="https://twitter.com/vzsecured" target="_blank" rel="noreferrer">
                                         <Image src={Twitter} alt="twitter" width={50} height={50} />
                                     </a>
                                 </div>
-                                <div>
+                                <div className="transform hover:scale-110 transition duration-500">
                                     <a href="https://www.linkedin.com/in/vaibhav-zadane-476461215/" target="_blank" rel="noreferrer">
                                         <Image src={Linkedin} alt="linkedin" width={50} height={50} />
                                     </a>
                                 </div>
-                                <div>
+                                <div className="transform hover:scale-110 transition duration-500">
                                     <a href="https://github.com/vaibhav200225" target="_blank" rel="noreferrer">
                                         <Image src={Github} alt="github" width={50} height={50} />
                                     </a>

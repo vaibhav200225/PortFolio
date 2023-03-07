@@ -44,10 +44,10 @@ export default function halloffame() {
             <div>
               <p className=" hidden"></p>
             </div>
-            <div>
+            <div className="transform hover:scale-125 transition duration-500">
               <Image src={PlanetArt} width={100} height={100} alt="Planet" className=" rounded-full "/>
             </div>
-            <div>
+            <div className="transform hover:scale-125 transition duration-500">
               <Image src={WebsiteBuild} width={100} height={100} alt="WebsiteBuilder" className=" rounded-full"/>
             </div>
             <div></div>
