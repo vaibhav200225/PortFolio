@@ -7,7 +7,7 @@ import next from "next";
 import Projects from "./components/Projects.js";
 import Halloffame from "./components/halloffame.js";
 import Services from "./components/Services.js";
-import Contactme from "./components/Contactme.js"
+import Contactme from "./components/contactme.js"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
