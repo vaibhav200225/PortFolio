@@ -7,7 +7,7 @@ import next from "next";
 import Projects from "./components/Projects.js";
 import Halloffame from "./components/halloffame.js";
 import Services from "./components/Services.js";
-import Contactme from "./components/contactme.js"
+import Contactme from "./components/Contactme.js"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -44,7 +44,7 @@ export default function Home() {
               Vaibhav Zadane
             </h2>
             <h3 className=" text-2xl py-2 md:text-3xl dark:text-white font-serif">
-              CyberSecurity Exert and Malware Analyzer
+              CyberSecurity Expert and Malware Analyzer
             </h3>
             <hr className=" w-80 h-1 mx-auto border-2 rounded md:my-10 drop-shadow-xl" />
             <p className=" text-lg py-5 leading-8 text-gray-800 md:text-xl mal-w-xl mx-auto lg:mr-60 lg:ml-60 dark:text-white">
@@ -53,7 +53,7 @@ export default function Home() {
               problems. Those difficulties and problem make me stronger and
               right now I am showcasing you my skill to you all. Woking hard to
               achiving the goals and turning my passion into goal. Right now I
-              am completing my BSC-IT degree and getting valueable knowledge. I
+              am completing my BSC-IT degree and getting valuable knowledge. I
               work Freelance as Bug Bounty Hunter and spread the knwoldege to
               all folks related to these domain.
             </p>

@@ -1,4 +1,3 @@
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Linkedin from "../../images/icons/linkedin.png";
 import Twitter from "../../images/icons/twitter.png";
@@ -7,12 +6,10 @@ import Image from "next/image";
 
 export default function contactme(){
 
-    const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_dg9goxz', 'template_i0pmssg', form.current, 'JQjzwP5vEzf3zU6l9')
+        emailjs.sendForm('service_dg9goxz', 'template_i0pmssg', e.target, 'JQjzwP5vEzf3zU6l9')
           .then((result) => {
               console.log(result.text);
               var form = document.getElementById("clear");
@@ -88,7 +85,7 @@ export default function contactme(){
                                 <div></div>
                             </div>
                         </div>
-                        <form id='clear' className=" p-6 flex flex-col justify-center" ref={form} onSubmit={sendEmail}>
+                        <form id='clear' className=" p-6 flex flex-col justify-center" onSubmit={sendEmail}>
                             <div className=" flex flex-col">
                                 <label for="name" className=" hidden"> Full Name</label>
                                 <input type="name" name="user_name" id="name" placeholder="Full Name" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-white border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
