@@ -52,7 +52,7 @@ export default function service() {
               <p className="py-2 lg:ml-10 lg:mr-10">
                 Security is the main concern in the business industries. <br />
                 If there is lack of security there may be chanches of loss
-                <br /> of financial and reputaion.
+                of financial and reputaion.
               </p>
               <br />
               <div className=" border-4 rounded-lg hover:border-green-600">
