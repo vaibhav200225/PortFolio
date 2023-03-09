@@ -16,7 +16,7 @@ export default function halloffame() {
             </p>
           </div>
 
-          <div className=" pt-10 flex space-x-20 ">
+          <div className="md:8 lg:pt-10 lg:flex lg:space-x-20 ">
             <div>
               <p className=" hidden"></p>
             </div>
@@ -44,10 +44,10 @@ export default function halloffame() {
             <div>
               <p className=" hidden"></p>
             </div>
-            <div className="transform hover:scale-125 transition duration-500">
+            <div className="lg:transform lg:hover:scale-125 lg:transition lg:duration-500">
               <Image src={PlanetArt} width={100} height={100} alt="Planet" className=" rounded-full "/>
             </div>
-            <div className="transform hover:scale-125 transition duration-500">
+            <div className="lg:transform lg:hover:scale-125 lg:transition lg:duration-500">
               <Image src={WebsiteBuild} width={100} height={100} alt="WebsiteBuilder" className=" rounded-full"/>
             </div>
             <div></div>

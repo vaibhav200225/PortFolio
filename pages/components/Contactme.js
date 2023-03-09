@@ -2,7 +2,9 @@ import emailjs from '@emailjs/browser';
 import Linkedin from "../../images/icons/linkedin.png";
 import Twitter from "../../images/icons/twitter.png";
 import Github from "../../images/icons/github.png";
-import Image from "next/image";
+import Youtube from "../../images/icons/youtube.png"
+import Image from "next/image"; 
+
 
 export default function contactme(){
 
@@ -11,10 +13,21 @@ export default function contactme(){
     
         emailjs.sendForm('service_dg9goxz', 'template_i0pmssg', e.target, 'JQjzwP5vEzf3zU6l9')
           .then((result) => {
-              console.log(result.text);
-              var form = document.getElementById("clear");
-              form.reset();
-              alert("Thankyou for sending message. We will response you ASAP.")
+              if (document.getElementById("fullllname").value == ""){
+                document.getElementById("errorname").innerHTML == "Please provide your Full Name"
+              } else if (document.getElementById("email").value == ""){
+                alert("Empty email")    
+              } else if (document.getElementById("number").value == ""){
+                alert("Empty Number")    
+              } else if (document.getElementById("message").value == ""){
+                alert("Empty Message")    
+              } else{
+                console.log(result.text);
+                var form = document.getElementById("clear");
+                form.reset();
+                alert("Thankyou for sending message. We will response you ASAP.")
+              }
+              
           }, (error) => {
               console.log(error.text);
           });
@@ -27,11 +40,11 @@ export default function contactme(){
             <div className=" max-w-9xl mx-auto sm:px-6 lg:px-2">
                 <div className=" mt-8 overflow-x-hidden">
                     <div className=" grid grid-cols-1 md:grid-cols-2">
-                        <div className=" p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
-                            <h1 className=" text-4xl sm:text-5xl text-gray-800 dark:text-white font-bold tracking-tight font-serif">
+                        <div className="  p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
+                            <h1 className=" lg:mt-7 text-4xl sm:text-5xl text-gray-800 dark:text-white font-bold tracking-tight font-serif">
                                 Get in Touch
                             </h1>
-                            <p className=" text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2">
+                            <p className=" lg:mt-5 text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2">
                                 Fill the form to Contact Us.
                             </p>
 
@@ -63,7 +76,7 @@ export default function contactme(){
                                 </div>                            
                             </div>
 
-                            <div className=' flex space-x-10 mt-4'>
+                            <div className=' flex space-x-8 mt-4'>
                                 <div className="transform hover:scale-110 transition duration-500">
                                     <a href="https://twitter.com/vzsecured" target="_blank" rel="noreferrer">
                                         <Image src={Twitter} alt="twitter" width={50} height={50} />
@@ -79,6 +92,11 @@ export default function contactme(){
                                         <Image src={Github} alt="github" width={50} height={50} />
                                     </a>
                                 </div>
+                                <div className="transform hover:scale-110 transition duration-500">
+                                    <a href="https://github.com/vaibhav200225" target="_blank" rel="noreferrer">
+                                        <Image src={Youtube} alt="github" width={50} height={50} />
+                                    </a>
+                                </div>
                             </div>
 
                             <div className=' flex items-center mt-4 text-gray-600 dark:text-gray-400'>
@@ -88,12 +106,18 @@ export default function contactme(){
                         <form id='clear' className=" p-6 flex flex-col justify-center" onSubmit={sendEmail}>
                             <div className=" flex flex-col">
                                 <label for="name" className=" hidden"> Full Name</label>
-                                <input type="name" name="user_name" id="name" placeholder="Full Name" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-white border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
+                                <input type="name" name="name" id="fullllname" placeholder="Full Name" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-white border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
+                                <p id='errorname' ></p>
                             </div>
 
                             <div className=" flex flex-col mt-2">
                                 <label for="email" className=" hidden">Email</label>
                                 <input type="email" name="user_email" id="email" placeholder="Email" className=" w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-white border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
+                            </div>
+
+                            <div className=" flex flex-col mt-2">
+                                <label for="number" className=" hidden">Phone Number</label>
+                                <input type="tel" name="user_number" id="number" placeholder="Phone No." className=" w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-white border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" />
                             </div>
 
                             <div className=" flex flex-col mt-3">

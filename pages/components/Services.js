@@ -7,10 +7,10 @@ import Image from "next/image";
 export default function service() {
     return(
         <>
-        <section className=" text-center mt-16">
+        <section className=" text-center md:mt-10 lg:mt-16">
           <div>
             <h2 className=" text-3xl py-1 text-teal-600 dark:text-teal-600 font-serif font-semibold">Services Offered</h2>
-            <p className=" text-lg py-5 leading-8 text-gray-800 md:text-xl mal-w-xl mx-auto lg:mr-60 lg:ml-60 dark:text-white">
+            <p className=" text-lg py-5 leading-8 text-gray-800 md:text-xl mal-w-xl mx-auto lg:mr-70 lg:ml-70 dark:text-white">
               I offer a range of high-quality services to help our clients
               achieve their business goals. Our services include all the topics
               which are mentioned below. I as Experienced professionals will
@@ -33,30 +33,37 @@ export default function service() {
                 of our business. For website development <br />
                 we will fulfield you needs.
               </p>
-              <h4 className="py-4 text-teal-600">What can we do</h4>
-              <div className=" right-3">
-                <p className=" text-gray-800 py-1">Front-End Designing</p>
-                <p className=" text-gray-800 py-1">Back-End Management</p>
-                <p className=" text-gray-800 py-1">Wordpress</p>
+              <div className=" border-4 rounded-lg hover:border-green-600">
+                <h3 className=" py-4 text-teal-600 text-xl underline">Service Provided</h3>
+                <div className=" right-3">
+                  <p className=" text-gray-800 py-1 text-lg">Front-End Designing</p>
+                  <p className=" text-gray-800 py-1 text-lg">Back-End Management</p>
+                  <p className=" text-gray-800 py-1 text-lg">Wordpress</p>
+                  <br />
+                </div>
               </div>
             </div>
+
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white ">
               <Image src={code} width={100} height={100} alt="code" />
               <h2 className=" text-3xl font-bold pt-8 pb-2">
                 Vulnerability Analysis & <br /> Penetration Testing
               </h2>
-              <p className="py-2">
+              <p className="py-2 lg:ml-10 lg:mr-10">
                 Security is the main concern in the business industries. <br />
                 If there is lack of security there may be chanches of loss
                 <br /> of financial and reputaion.
               </p>
-              <h4 className="py-4 text-teal-600">What can we do</h4>
-              <p className=" text-gray-800 py-1">
-                WEB/Mobile/API Penetration Testing
-              </p>
-              <p className=" text-gray-800 py-1">Network Penetration Testing</p>
-              <p className=" text-gray-800 py-1">Source Code Reviewing</p>
+              <br />
+              <div className=" border-4 rounded-lg hover:border-green-600">
+                <h3 className=" py-4 text-teal-600 text-xl underline">Service Provided</h3>
+                <p className=" text-gray-800 py-1 text-lg">WEB/Mobile/API Penetration Testing</p>
+                <p className=" text-gray-800 py-1 text-lg">Network Penetration Testing</p>
+                <p className=" text-gray-800 py-1 text-lg">Source Code Reviewing</p>
+                <br />
+              </div>
             </div>
+
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={Consulting}
@@ -72,14 +79,18 @@ export default function service() {
                 security.Some people are getting tricked by Social <br />
                 Engineering Attacks.
               </p>
-              <h4 className="py-4 text-teal-600">What can we do</h4>
-              <p className=" text-gray-800 py-1">Taking a live Seminar</p>
-              <p className=" text-gray-800 py-1">
-                Teaching about Cyber Security
-              </p>
-              <p className=" text-gray-800 py-1">
-                How to prevent those activities.
-              </p>
+              <br />
+              <div className=" border-4 rounded-lg hover:border-green-600">
+                <h3 className=" py-4 text-teal-600 text-xl underline">Service Provided</h3>
+                <p className=" text-gray-800 py-1 text-lg">Taking a live Seminar</p>
+                <p className=" text-gray-800 py-1 text-lg">
+                  Teaching about Cyber Security
+                </p>
+                <p className=" text-gray-800 py-1 text-lg">
+                  How to prevent those activities.
+                </p>
+                <br />
+              </div>
             </div>
           </div>
         </section>

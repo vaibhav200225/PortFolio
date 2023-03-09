@@ -7,7 +7,7 @@ import next from "next";
 import Projects from "./components/Projects.js";
 import Halloffame from "./components/halloffame.js";
 import Services from "./components/Services.js";
-import Contactme from "./components/Contactme.js"
+import Contactme from "./components/Contactme.js";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -33,9 +33,11 @@ export default function Home() {
                     className=" cursor-pointer text-2xl text-black dark:text-white "
                   />
                 </li>
-                <li className=" text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-md shadow-lg shadow-cyan-400">
-                  <a href="#">Blog</a>
-                </li>
+                <a href="https://medium.com/@vaibhavmadan2002" target="_blank" rel="noreferrer">
+                  <li className=" text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-md shadow-lg shadow-cyan-400">
+                    Blog
+                  </li>
+                </a>
               </ul>
             </nav>
           </div>
@@ -64,6 +66,7 @@ export default function Home() {
           </div>
         </section>
         
+        <hr className=" w-80 h-1 mx-auto border-2 rounded md:my-10 drop-shadow-xl " />
         <Services />
 
         <Projects />
