@@ -35,7 +35,7 @@ export default function contactme(){
 
     return(
         <>
-        <div className=" pt-12"></div>
+        <div className=" pt-3"></div>
         <div className=" flex items-top justify-center bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
             <div className=" max-w-9xl mx-auto sm:px-6 lg:px-2">
                 <div className=" mt-8 overflow-x-hidden">
@@ -93,7 +93,7 @@ export default function contactme(){
                                     </a>
                                 </div>
                                 <div className="transform hover:scale-110 transition duration-500">
-                                    <a href="https://github.com/vaibhav200225" target="_blank" rel="noreferrer">
+                                    <a href="https://www.youtube.com/channel/UCfGM2YPcD6SrhMn6M13Rumw" target="_blank" rel="noreferrer">
                                         <Image src={Youtube} alt="github" width={50} height={50} />
                                     </a>
                                 </div>
