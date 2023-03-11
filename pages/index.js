@@ -28,7 +28,7 @@ export default function Home() {
                 <div>
                 <nav className=" py-3 mb-10 flex justify-between md:text-sm">
                   <div className=" pt-5">
-                    <Image src={Logo} alt="logo" height={60} width={250} className=" rounded-lg"/>
+                    <Image src={Logo} alt="logo" height={75} width={250} className=" rounded-lg"/>
                   </div>
                   <ul className="flex items-center gap-10 right-10">
                     <li>

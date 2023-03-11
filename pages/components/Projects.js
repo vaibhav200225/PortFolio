@@ -30,9 +30,9 @@ export default function Projects() {
           </p>
           <br />
           <a href="https://github.com/vaibhav200225/Network-Pentesting" target="_blank" rel="noreferrer">
-            <li className=" text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-md hover:shadow-lg hover:shadow-cyan-400">
+            <p className=" lg:transform lg:transition lg:duration-500 text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-3xl hover:shadow-lg hover:shadow-cyan-400">
               Click Here
-            </li>
+            </p>
           </a>
         </div>
 
@@ -47,9 +47,9 @@ export default function Projects() {
           <br />
           <br />
           <a href="https://github.com/vaibhav200225/Malware-Analysis" target="_blank" rel="noreferrer">
-            <li className=" text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-md hover:shadow-lg hover:shadow-cyan-400">
+            <p className=" lg:transform lg:transition lg:duration-500 text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-3xl hover:shadow-lg hover:shadow-cyan-400">
               Click Here
-            </li>
+            </p>
           </a>
         </div>
 
@@ -64,9 +64,9 @@ export default function Projects() {
           <br />
           <br />
           <a href="https://github.com/vaibhav200225/Portfolio" target="_blank" rel="noreferrer">
-            <li className=" text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-md hover:shadow-lg hover:shadow-cyan-400">
+            <p className=" lg:transform lg:transition lg:duration-500 text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-3xl hover:shadow-lg hover:shadow-cyan-400">
               Click Here
-            </li>
+            </p>
           </a>
         </div>
 
@@ -80,9 +80,9 @@ export default function Projects() {
           </p>
           <br />
           <a href="#" target="_blank" rel="noreferrer">
-            <li className=" text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-md hover:shadow-lg hover:shadow-cyan-400">
+            <p className=" lg:transform lg:transition lg:duration-500 text-xl font-burtons bg-gradient-to-b from-lime-500 to-teal-500 text-white px-4 py-2 rounded-3xl lg:hover:shadow-lg lg:hover:shadow-cyan-400">
               Click Here
-            </li>
+            </p>
           </a>
         </div>
       </section>
