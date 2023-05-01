@@ -1,3 +1,13 @@
+##Website Development
+
+I have successfully developed and designed a dynamic and visually appealing portfolio website as a self-work project to showcase my skill set. Leveraging the power of React.js, I created a responsive website that adapts seamlessly to various screen sizes and devices, ensuring an optimal user experience.
+
+Through meticulous attention to detail and a strong emphasis on creativity, I crafted a unique and engaging user interface, enhancing the overall user journey. The website's intuitive navigation and user-friendly layout allow visitors to explore my projects, experience my skills, and learn more about my professional background effortlessly.
+
+In addition to the technical aspects, I ensured the website's performance was optimized, guaranteeing fast loading times and smooth interactions. Furthermore, by utilizing free hosting services, I made the website accessible to a wide audience, enabling easy sharing and showcasing of my work.
+
+Overall, my portfolio website stands as a testament to my proficiency in React.js and web development. Its seamless responsiveness, creative design, and efficient hosting exemplify my dedication to delivering high-quality projects.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
